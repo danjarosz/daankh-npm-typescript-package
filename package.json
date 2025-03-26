@@ -6,9 +6,10 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build && npm run check-format",
     "format": "prettier --write .",
-    "check-format": "prettier --check ."
+    "check-format": "prettier --check .",
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
+    "ci": "npm run build && npm run check-format && npm run check-exports"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "typescript": "^5.8.2"
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.17.4",
     "prettier": "^3.5.3"
   }
 }
