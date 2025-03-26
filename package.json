@@ -1,0 +1,24 @@
+{
+  "name": "daankh-npm-typescript-package",
+  "version": "0.0.1",
+  "description": "Template of NPM package built using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjarosz/daankh-npm-typescript-package.git"
+  },
+  "keywords": [
+    "npm-package",
+    "typescript",
+    "template"
+  ],
+  "author": "Daniel Jarosz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danjarosz/daankh-npm-typescript-package/issues"
+  },
+  "homepage": "https://github.com/danjarosz/daankh-npm-typescript-package#readme"
+}
