@@ -4,7 +4,7 @@
   "description": "Template of NPM package built using TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/danjarosz/daankh-npm-typescript-package/issues"
   },
-  "homepage": "https://github.com/danjarosz/daankh-npm-typescript-package#readme"
+  "homepage": "https://github.com/danjarosz/daankh-npm-typescript-package#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
