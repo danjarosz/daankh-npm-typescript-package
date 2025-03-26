@@ -2,14 +2,18 @@
   "name": "daankh-npm-typescript-package",
   "version": "0.0.1",
   "description": "Template of NPM package built using TypeScript",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "npx tsc"
+    "build": "tsc",
+    "ci": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danjarosz/daankh-npm-typescript-package.git"
   },
+  "type": "module",
+  "files": ["lib"],
   "keywords": [
     "npm-package",
     "typescript",
@@ -21,7 +25,7 @@
     "url": "https://github.com/danjarosz/daankh-npm-typescript-package/issues"
   },
   "homepage": "https://github.com/danjarosz/daankh-npm-typescript-package#readme",
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^5.8.2"
   }
 }
