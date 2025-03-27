@@ -11,8 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  timeout-minutes: 60
   ci:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
 
     steps:
