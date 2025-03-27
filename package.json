@@ -1,6 +1,6 @@
 {
   "name": "daankh-npm-typescript-package",
-  "version": "1.2.0",
+  "version": "0.0.1",
   "description": "Template of NPM package built using TypeScript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
