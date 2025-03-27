@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 1.2.0
+
+### Minor Changes
+
+- dc3fdfe: Update GH Actions, tests and README.md
+
 ## 1.1.1
 
 ### Patch Changes
