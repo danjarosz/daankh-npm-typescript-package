@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 1.1.1
+
+### Patch Changes
+
+- 491b02f: Update README.md
+
 ## 1.1.0
 
 ### Minor Changes
