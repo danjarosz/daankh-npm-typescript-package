@@ -11,10 +11,11 @@ Template for creating typescript-based npm packages.
 
 ## How to use?
 
-1. Clone the repository
-2. Write your Typescript code in `src` directory.
-3. Export the core content of your package in `src/index.ts` file.
-4. Create `dev` branch to put your code there. To deploy the package make a pull request from `dev` into `main` branch.
+1. Clone the repository.
+2. Create `dev` branch.
+3. Create you changes on another branch that will be merged into `dev`. 
+4. Write your Typescript code in `src` directory. 
+5. Export the core content of your package in `src/index.ts` file.
 
 ## How to set up a package before start coding?
 
@@ -48,12 +49,13 @@ Edit `package.json`:
    ```
    npm login
    ```
-3. Add a changeset
+3. Switch to the `main` branch. Ensure you pushed all the changes from `dev` into `main` branch.
+4. On the `main` branch, add a changeset
    ```
    npx changeset
    ```
-4. Commit your changes
-5. Run the `local-release` script
+4. On the `main` branch, commit your changes
+5. On the `main` branch, run the `local-release` script
    ```
    npm run local-release
    ```
@@ -61,3 +63,7 @@ Edit `package.json`:
    ```
    http://npmjs.com/package/<YOUR-PACKAGE-NAME>
    ```
+
+## Future functionality to develop:
+
+- export CSS styles
