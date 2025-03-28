@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 0.0.2
+
+### Patch Changes
+
+- d3ca5af: Update README.md
+
 ## 1.2.0
 
 ### Minor Changes
