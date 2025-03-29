@@ -14,8 +14,8 @@ Template for creating typescript-based npm packages.
 1. Clone the repository.
 2. Uncomment the content of the `ci.yml` GH Action (`.github/workflows/ci.yml`)
 2. Create `dev` branch.
-3. Create you changes on another branch that will be merged into `dev`. 
-4. Write your Typescript code in `src` directory. 
+3. Create you changes on another branch that will be merged into `dev`.
+4. Write your Typescript code in `src` directory.
 5. Export the core content of your package in `src/index.ts` file.
 
 ## How to set up a package before start coding?
@@ -72,3 +72,21 @@ Edit `package.json`:
 ## Future functionality to develop:
 
 - export CSS styles
+
+## Licence
+
+This package is released under the MIT licence, but also uses some external packages, thar are released under their own
+licences.
+
+Initially, I use free software packages. To ensure that, I put
+the screenshots of licences in the `licence_screenshots` directory.
+
+Initial setup of packages:
+
+- [Typescript](https://www.npmjs.com/package/typescript)
+- [@arethetypeswrong/cli](https://www.npmjs.com/package/@arethetypeswrong/cli)
+- [@changesets/cli](https://www.npmjs.com/package/@changesets/cli)
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [Vitest](http://npmjs.com/package/vitest)
+
+Ensure what you are licenced for before you release your package.
