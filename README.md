@@ -75,7 +75,7 @@ Edit `package.json`:
 
 ## Licence
 
-This package is released under the MIT licence, but also uses some external packages, thar are released under their own
+This package is released under the MIT licence, but also uses some external packages, that are released under their own
 licences.
 
 Initially, I use free software packages. To ensure that, I put
