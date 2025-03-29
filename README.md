@@ -12,6 +12,7 @@ Template for creating typescript-based npm packages.
 ## How to use?
 
 1. Clone the repository.
+2. Uncomment the content of the `ci.yml` GH Action (`.github/workflows/ci.yml`)
 2. Create `dev` branch.
 3. Create you changes on another branch that will be merged into `dev`. 
 4. Write your Typescript code in `src` directory. 
@@ -63,6 +64,10 @@ Edit `package.json`:
    ```
    http://npmjs.com/package/<YOUR-PACKAGE-NAME>
    ```
+7. Commint everything on the `main` branch
+8. Switch to the `dev` branch.
+9. Update `dev` with the current changes from `main`.
+10. Repeat the development process.
 
 ## Future functionality to develop:
 
