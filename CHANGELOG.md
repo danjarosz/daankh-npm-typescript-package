@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 1.1.0
+
+### Minor Changes
+
+- 6d75d33: Fix typos in Readme.md
+
 ## 1.0.1
 
 ### Patch Changes
