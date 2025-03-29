@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 1.0.1
+
+### Patch Changes
+
+- 1e55201: Unlock CI. action
+
 ## 1.0.0
 
 ### Major Changes
