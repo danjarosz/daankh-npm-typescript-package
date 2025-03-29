@@ -1,5 +1,11 @@
 # daankh-npm-typescript-package
 
+## 1.0.0
+
+### Major Changes
+
+- 250642a: Update licences and release first useable realease
+
 ## 0.0.2
 
 ### Patch Changes
