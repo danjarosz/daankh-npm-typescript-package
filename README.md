@@ -13,10 +13,10 @@ Template for creating typescript-based npm packages.
 
 1. Clone the repository.
 2. Uncomment the content of the `ci.yml` GH Action (`.github/workflows/ci.yml`)
-2. Create `dev` branch.
-3. Create you changes on another branch that will be merged into `dev`.
-4. Write your Typescript code in `src` directory.
-5. Export the core content of your package in `src/index.ts` file.
+3. Create `dev` branch.
+4. Create you changes on another branch that will be merged into `dev`.
+5. Write your Typescript code in `src` directory.
+6. Export the core content of your package in `src/index.ts` file.
 
 ## How to set up a package before start coding?
 
@@ -55,19 +55,19 @@ Edit `package.json`:
    ```
    npx changeset
    ```
-4. On the `main` branch, commit your changes
-5. On the `main` branch, run the `local-release` script
+5. On the `main` branch, commit your changes
+6. On the `main` branch, run the `local-release` script
    ```
    npm run local-release
    ```
-6. Congratulations! You're package is released! You can visit a page of your package:
+7. Congratulations! You're package is released! You can visit a page of your package:
    ```
    http://npmjs.com/package/<YOUR-PACKAGE-NAME>
    ```
-7. Commint everything on the `main` branch
-8. Switch to the `dev` branch.
-9. Update `dev` with the current changes from `main`.
-10. Repeat the development process.
+8. Commint everything on the `main` branch
+9. Switch to the `dev` branch.
+10. Update `dev` with the current changes from `main`.
+11. Repeat the development process.
 
 ## Future functionality to develop:
 
